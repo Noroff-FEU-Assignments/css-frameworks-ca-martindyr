@@ -1,0 +1,11 @@
+.carousel ol li {
+    height: 20px;
+}
+
+.carousel-indicators li {
+    opacity: 1 !important;
+}
+
+#carouselIndicators .active {
+    background-color: $primary-color;
+}

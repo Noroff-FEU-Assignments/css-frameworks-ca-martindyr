@@ -1,0 +1,54 @@
+main {
+    background: radial-gradient(#ffffff, #e5e5e5);
+}
+
+@media (min-width: 768px) {
+    main {
+        min-height: calc(100vh - 24px - 56px);
+    }
+}
+@media (max-width: 768px) {
+    main {
+        min-height: calc(100vh - 48px - 56px);
+    }
+}
+
+.navbar-brand {
+    color: $primary-color !important;
+    font-family: "Playfair Display", serif;
+}
+
+i {
+    color: $icon-color;
+}
+
+.heading-intro h2,
+.page-header {
+    font-family: "Playfair Display", serif;
+    color: $primary-color !important;
+}
+.heading-intro p,
+.nav-link {
+    font-family: "lato", serif;
+}
+
+.pagination {
+    width: fit-content;
+    padding-left: 15px !important;
+}
+
+.pagination a {
+    color: $primary-color;
+}
+
+.pagination .active span {
+    background-color: $primary-color !important;
+}
+
+.pagination li {
+    border: 1px solid $primary-color;
+}
+
+.page-header {
+    padding-left: 15px;
+}
