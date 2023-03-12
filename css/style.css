@@ -1,0 +1,247 @@
+.carousel ol li {
+  height: 20px;
+}
+
+.carousel-indicators li {
+  opacity: 1 !important;
+}
+
+#carouselIndicators .active {
+  background-color: #e92569;
+}
+
+@media (min-width: 768px) {
+  .nav-item-desktop a {
+    color: #e92569;
+  }
+  .accordion {
+    display: none;
+  }
+  .tab-content {
+    padding: 30px;
+  }
+  .tab-pane {
+    display: flex !important;
+    gap: 20px;
+  }
+  .tab-pane-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .tab-pane-container-socials {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #myTab,
+  .tab-content {
+    display: none;
+  }
+  .accordion {
+    padding: 0px 30px;
+  }
+  .accordion-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .accordion-container-socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+  }
+  .accordion .btn-link {
+    color: #e92569 !important;
+  }
+}
+.form-inline {
+  display: flex !important;
+  flex-direction: row !important;
+  padding: 0px !important;
+}
+
+.form-inline .form-control {
+  margin-right: 0px !important;
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.btn-outline-success {
+  height: 38px !important;
+  width: unset !important;
+  border: none !important;
+  color: #fff !important;
+  background-color: #e92569 !important;
+  border-radius: 0px 0.25rem 0.25rem 0 !important;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .footer-desktop {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .footer-mobile {
+    display: none;
+  }
+}
+/* MOBILE */
+@media (max-width: 768px) {
+  .footer-mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .footer-mobile__info-container {
+    display: flex;
+    gap: 20px;
+  }
+  .footer-desktop {
+    display: none;
+  }
+}
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.card-btn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-btn a {
+  width: 85%;
+  border: none;
+  border-radius: 0.25rem 0 0 0.25rem;
+  background-color: #e92569;
+}
+
+.card-btn-decoration {
+  width: 10%;
+  background-color: #767676;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+form {
+  font-family: "lato", serif;
+  background-color: #efefef;
+  padding: 20px;
+}
+
+.form h2 {
+  font-family: "Playfair Display", serif !important;
+  color: #e92569 !important;
+}
+
+form .btn {
+  width: 100%;
+  background-color: #767676;
+}
+
+.input-group-text {
+  color: #fff !important;
+  border: #707070;
+  background-color: #c7c7c7 !important;
+}
+
+.form-check-input::after {
+  background-color: #e92569 !important;
+  color: #e92569 !important;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .container {
+    display: flex !important;
+    flex-direction: row;
+    gap: 50px;
+  }
+}
+/* Mobile */
+@media (max-width: 768px) {
+  .container {
+    display: flex !important;
+    flex-direction: column-reverse;
+  }
+  h2 {
+    padding-left: 32px !important;
+  }
+  form {
+    padding: 0px 32px;
+  }
+}
+.list-group-item {
+  border: none !important;
+  padding-left: 32px !important;
+  gap: 20px;
+  font-family: "lato", serif;
+}
+
+.list-group-item {
+  background-color: transparent !important;
+}
+
+main {
+  background: radial-gradient(#ffffff, #e5e5e5);
+}
+
+@media (min-width: 768px) {
+  main {
+    min-height: calc(100vh - 24px - 56px);
+  }
+}
+@media (max-width: 768px) {
+  main {
+    min-height: calc(100vh - 48px - 56px);
+  }
+}
+.navbar-brand {
+  color: #e92569 !important;
+  font-family: "Playfair Display", serif;
+}
+
+i {
+  color: #767676;
+}
+
+.heading-intro h2,
+.page-header {
+  font-family: "Playfair Display", serif;
+  color: #e92569 !important;
+}
+
+.heading-intro p,
+.nav-link {
+  font-family: "lato", serif;
+}
+
+.pagination {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 15px !important;
+}
+
+.pagination a {
+  color: #e92569;
+}
+
+.pagination .active span {
+  background-color: #e92569 !important;
+}
+
+.pagination li {
+  border: 1px solid #e92569;
+}
+
+.page-header {
+  padding-left: 15px;
+}/*# sourceMappingURL=style.css.map */

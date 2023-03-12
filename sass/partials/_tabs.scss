@@ -1,0 +1,57 @@
+@media (min-width: 768px) {
+    .nav-item-desktop a {
+        color: $primary-color;
+    }
+
+    .accordion {
+        display: none;
+    }
+    .tab-content {
+        padding: 30px;
+    }
+
+    .tab-pane {
+        display: flex !important;
+        gap: 20px;
+    }
+
+    .tab-pane-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .tab-pane-container-socials {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #myTab,
+    .tab-content {
+        display: none;
+    }
+
+    .accordion {
+        padding: 0px 30px;
+    }
+
+    .accordion-container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .accordion-container-socials {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 15px;
+    }
+    .accordion .btn-link {
+        color: $primary-color !important;
+    }
+}
